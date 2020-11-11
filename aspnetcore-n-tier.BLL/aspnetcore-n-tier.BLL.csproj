@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>aspnetcore_n_tier.BLL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aspnetcore-n-tier.DAL\aspnetcore-n-tier.DAL.csproj" />
+    <ProjectReference Include="..\aspnetcore-n-tier.DTO\aspnetcore-n-tier.DTO.csproj" />
+    <ProjectReference Include="..\aspnetcore-n-tier.Entity\aspnetcore-n-tier.Entity.csproj" />
+    <ProjectReference Include="..\aspnetcore-n-tier.Utility\aspnetcore-n-tier.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

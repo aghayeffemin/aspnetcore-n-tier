@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>aspnetcore_n_tier.Utility</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aspnetcore-n-tier.DTO\aspnetcore-n-tier.DTO.csproj" />
+    <ProjectReference Include="..\aspnetcore-n-tier.Entity\aspnetcore-n-tier.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

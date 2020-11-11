@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>aspnetcore_n_tier.IoC</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aspnetcore-n-tier.BLL\aspnetcore-n-tier.BLL.csproj" />
+    <ProjectReference Include="..\aspnetcore-n-tier.DAL\aspnetcore-n-tier.DAL.csproj" />
+    <ProjectReference Include="..\aspnetcore-n-tier.Utility\aspnetcore-n-tier.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

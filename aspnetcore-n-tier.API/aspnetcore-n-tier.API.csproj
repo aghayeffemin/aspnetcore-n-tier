@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>aspnetcore_n_tier.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aspnetcore-n-tier.BLL\aspnetcore-n-tier.BLL.csproj" />
+    <ProjectReference Include="..\aspnetcore-n-tier.DTO\aspnetcore-n-tier.DTO.csproj" />
+    <ProjectReference Include="..\aspnetcore-n-tier.IoC\aspnetcore-n-tier.IoC.csproj" />
+  </ItemGroup>
+
+
+</Project>
