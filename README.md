@@ -23,7 +23,7 @@ dotnet ef --startup-project ../aspnetcore-n-tier.API migrations add initial --co
 - aspnetcore-n-tier.DTO - Data transfer objects.
 - aspnetcore-n-tier.Entity - Database entities.
 - aspnetcore-n-tier.IoC - Responsible for *dependency injection* it has ```DependencyInjection``` class and ```InjectDependencies``` method in it.
-- aspnetcore-n-tier.Utility - Has *AutoMapperProfiles* (You can get detailed information about Automapper from [*here*](https://automapper.org/)) class in it.
+- aspnetcore-n-tier.Utility - Has *AutoMapperProfiles* (You can get detailed information about *Automapper* from [here](https://automapper.org/)) class in it.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
