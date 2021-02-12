@@ -13,7 +13,7 @@
 dotnet ef --startup-project ../aspnetcore-n-tier.API migrations add initial --context AspNetCoreNTierDbContext
 ```
 ```
-dotnet ef --startup-project ../aspnetcore-n-tier.API migrations add initial --context AspNetCoreNTierDbContext
+dotnet ef --startup-project ../aspnetcore-n-tier.API database update initial --context AspNetCoreNTierDbContext
 ```
 ## Layers
 
